@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     background-image:linear-gradient(pink,white);
+     background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+.product{
+    display: flex;
+    height: 24rem;
+    align-content: space-evenly;
+   
+}
+.prod_text{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: space-between;
+    
+}
+.prod_heading{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: serif;
+    margin-top: 10px;
+   
+}
+.prod_details ul{
+    line-height: 30px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5rem;
+    font-weight: 500;
+}
+.prod_img img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 30px;
+}
+.action-button{
+    display: flex;
+}
+.action-button i{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color:black;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+    font-size: 2rem;
+    padding: 0.85rem;
+}
+.action-button button{
+    background-image: linear-gradient(grey,white);
+    border: none;
+    height: 3rem;
+    width: 6rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.action-button button:hover{
+    background-image: linear-gradient(green,white);
+}
+.prod_img_caption{
+    font-size: 10px;
+}
