@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.conatiner {
+  height: 100%;
+  width: 100vw;
+  position: relative;
+}
+body{
+    background-image:linear-gradient(rgb(253, 167, 68),black);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar1 {
+  background-color: brown;
+  width: 100%;
+  font-size: 6em;
+  color: white;
+  padding: 6px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.navbar1logo i{
+    font-size: 1em;
+    color: white;
+}
+.hero-section {
+  background-image: url(bloghero-section.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 100%;
+  background-position: bottom;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blockstyle {
+  background-color: #dddddd;
+  z-index: 1;
+  height: 25em;
+  width: 20%;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2em;
+  box-shadow: 1px 4px 7px 0px rgb(48, 44, 44);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+border-radius: 8px;
+}
+
+.blockstyle:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease-in-out;
+  box-shadow: 5px 7px 7px 0px rgb(48, 44, 44);
+}
+.blockstyle p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.blockstyle img {
+  height: 25vh;
+  width: 10vw;
+}
+.blockstyle button {
+  z-index: 1;
+  visibility: hidden;
+  border: none;
+  border-radius: 3px;
+}
+.blockstyle:hover button {
+  visibility: visible;
+  background-color: rgb(122, 20, 20);
+  font-size: 0.85em;
+  color: white;
+  padding: 5px;
+  transform: scale(1.3);
+  transition: 1s ease;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.footer{
+    background-color: darkslategray;
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
