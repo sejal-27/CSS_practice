@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.conatiner {
+  height: 100%;
+  width: 100vw;
+  position: relative;
+}
+body{
+    background-image:linear-gradient(rgb(253, 167, 68),black);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar1 {
+  background-color: brown;
+  width: 100%;
+  font-size: 6em;
+  color: white;
+  padding: 6px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.navbar1logo i{
+    font-size: 1em;
+    color: white;
+}
+.hero-section {
+  background-image: url(bloghero-section.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 100%;
+  background-position: bottom;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.block {
+    position: absolute;
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+   justify-content: center;
+  padding: 10px;
+  background-color: rgb(217, 220, 223,0.85);
+  margin-top: 10px;
+  width: 70%;
+  border-radius: 8px;
+}
+.blockdata{
+    display: flex;
+    flex-direction: column;
+}
+.blockhead{
+    font-size: 3rem;
+    text-transform:uppercase;
+    font-weight: 700;
+}
+.blockimg img{
+    height: 15rem;
+    width: 13rem;
+    padding: 10px;
+}
+.blockinfo ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footer{
+    background-color: darkslategray;
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
