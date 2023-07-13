@@ -29,7 +29,8 @@ body{
     color: white;
 }
 .hero-section {
-  background-image: url(bloghero-section.jpg);
+  background-image: linear-gradient(transparent, #000000),url(bloghero-section.jpg);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   height: 30em;
