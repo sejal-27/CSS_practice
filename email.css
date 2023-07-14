@@ -42,6 +42,7 @@ body {
   align-items: center;
 }
 .main img {
+    margin-top: 5px;
   height: 50%;
   width: 60%;
 }
